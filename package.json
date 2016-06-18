@@ -1,0 +1,28 @@
+{
+  "name": "karma-istanbul-preprocessor",
+  "version": "0.0.1",
+  "description": "Instrument code with istanbul without causing conflict with karma-coverage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/textioHQ/karma-istanbul-preprocessor.git"
+  },
+  "keywords": [
+    "karma-preprocessor",
+    "karma-plugin",
+    "istanbul",
+    "coverage"
+  ],
+  "author": "Anil Kulkarni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/textioHQ/karma-istanbul-preprocessor/issues"
+  },
+  "homepage": "https://github.com/textioHQ/karma-istanbul-preprocessor#readme",
+  "dependencies": {
+    "istanbul": "^0.4.3"
+  }
+}
