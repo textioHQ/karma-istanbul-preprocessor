@@ -11,7 +11,7 @@ var createIstanbulPreprocessor = function(logger) {
                 log.error('%s\n  at %s', err.message, file.originalPath);
                 done(err, null);
             } else {
-                log.debug("finished instrumenting " file.path);
+                log.debug("finished instrumenting " + file.path);
                 done(instrumentedCode);
             }
         });
