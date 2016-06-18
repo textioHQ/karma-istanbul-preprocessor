@@ -1,6 +1,6 @@
 {
   "name": "karma-istanbul-preprocessor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Instrument code with istanbul without causing conflict with karma-coverage",
   "main": "index.js",
   "scripts": {
